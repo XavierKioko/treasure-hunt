@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!----======== CSS ======== -->
+    <link rel="stylesheet" href="registrationandlogin.css">
+     
+    <!----===== Iconscout CSS ===== -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <title>Regisration Form </title> 
+</head>
+<body>
+    <div class="container">
+        <header>Registration</header>
+
+        <form action="#">
+            <div class="form first">
+                <div class="details personal">
+                    <span class="title">Personal Details</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>First Name</label>
+                            <input type="text" placeholder="Enter your name" required>
+                        </div>
+                        <div class="input-field">
+                            <label>Last Name</label>
+                            <input type="text" placeholder="Enter your name" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Date of Birth</label>
+                            <input type="date" placeholder="Enter birth date" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Email</label>
+                            <input type="email" placeholder="Enter your email" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Mobile Number</label>
+                            <input type="number" placeholder="Enter mobile number" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Gender</label>
+                            <select required>
+                                <option disabled selected>Select gender</option>
+                                <option>Male</option>
+                                <option>Female</option>
+                                <option>Others</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="details ID">
+                    <span class="title">Identity Details</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Identification Type</label>
+                            <select required>
+                                <option disabled selected>Select Identification</option>
+                                <option>Kenyan National ID</option>
+                                <option>Passport</option>
+                            </select>
+                        </div>
+
+                        <div class="input-field">
+                            <label>ID Number</label>
+                            <input type="text" placeholder="Enter ID number" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Country of Origin</label>
+                            <select required>
+                                <option disabled selected>Select Country</option>
+                                <option>Kenya</option>
+                                <option>Uganda</option>
+                                <option>Tanzania</option>
+                                <option>Rwanda</option>
+                                <option>Burundi</option>
+                                <option>Ethiopia</option>
+                                <option>Sudan</option>
+                                <option>South Sudan</option>
+                                <option>Somalia</option>
+                                <option>Djibouti</option>
+                                <option>Eritrea</option>
+                                <option>Nigeria</option>
+                                <option>South Africa</option>
+                                <option>Other</option>
+                            </select>
+                        </div>
+                        <div class="input-field">
+                            <label>Password</label>
+                            <input type="text" placeholder="Enter Password" required>
+                        </div>
+                        <div class="input-field">
+                            <label>Confrim Password</label>
+                            <input type="text" placeholder="Confirm Password" required>
+                        </div>
+                        <div class="input-field">
+                            <label>Add Profile Picture</label>
+                            <input type="file" name="image" required>
+                        </div>
+                        <div class="tacbox">
+                        <input id="checkbox" type="checkbox" required/>
+                        <label for="checkbox"> I agree to these <a href="#">Terms and Conditions</a>.</label>
+                    </div>
+                    <div class="account">
+                            <label>Have an account?<a href="login.html">Login</a></label>
+                        </div>
+
+                    </div>
+                    <button class="sumbit">
+                            <span class="btnText">Submit</span>
+                            <i class="uil uil-navigator"></i>
+                        </button>
+                </div> 
+            </div>                        
+        </form>
+    </div>
+</body>
+</html>
